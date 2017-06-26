@@ -1,0 +1,12 @@
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\SkypeUCWASendIM.exe.config
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\SkypeUCWASendIM.exe
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\SkypeUCWASendIM.pdb
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\Newtonsoft.Json.dll
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\bin\Debug\Newtonsoft.Json.xml
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\obj\Debug\SkypeUCWASendIM.csprojResolveAssemblyReference.cache
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\obj\Debug\SkypeUCWASendIM.exe
+C:\Dexter\Practice\skype-docs-live\ucwa-sfbo-console-master\SkypeUCWASendIM\obj\Debug\SkypeUCWASendIM.pdb

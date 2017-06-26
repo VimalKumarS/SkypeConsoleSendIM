@@ -1,0 +1,182 @@
+﻿{
+  "_links": {
+    "self": { "href": "/ucwa/oauth/v1/applications/10950283053/events?ack=2&key=c2lwOndhcnBidWJibGVAdGVzbGEzMjkub25taWNyb3NvZnQuY29t-10950283053-ZGVmYXVsdA%3D%3D" },
+    "next": { "href": "/ucwa/oauth/v1/applications/10950283053/events?ack=3&key=c2lwOndhcnBidWJibGVAdGVzbGEzMjkub25taWNyb3NvZnQuY29t-10950283053-ZGVmYXVsdA%3D%3D" }
+  },
+  "sender": [
+    {
+      "rel": "communication",
+      "href": "/ucwa/oauth/v1/applications/10950283053/communication",
+      "events": [
+        {
+          "link": {
+            "rel": "conversation",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca"
+          },
+          "_embedded": {
+            "conversation": {
+              "state": "Connected",
+              "threadId": "AdLuH9N7UBFexDg4hkanQk5PhRMBww==",
+              "subject": "Task Sample",
+              "activeModalities": [ "Messaging" ],
+              "importance": "Normal",
+              "recording": false,
+              "_links": {
+                "self": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca" },
+                "applicationSharing": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/applicationSharing" },
+                "audioVideo": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/audioVideo" },
+                "dataCollaboration": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/dataCollaboration" },
+                "messaging": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/messaging" },
+                "phoneAudio": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/phoneAudio" },
+                "localParticipant": {
+                  "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/warpbubble@tesla329.onmicrosoft.com",
+                  "title": "vimal kumar"
+                },
+                "participants": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants" },
+                "addParticipant": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/participantInvitations?conversation=4abce6fd-3501-425d-af19-5bb08d0915ca" }
+              },
+              "rel": "conversation"
+            }
+          },
+          "type": "updated"
+        }
+      ]
+    },
+    {
+      "rel": "conversation",
+      "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca",
+      "events": [
+        {
+          "link": {
+            "rel": "participant",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/user1@tesla329.onmicrosoft.com",
+            "title": ""
+          },
+          "type": "added"
+        },
+        {
+          "link": {
+            "rel": "participantMessaging",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/user1@tesla329.onmicrosoft.com/messaging"
+          },
+          "in": {
+            "rel": "participant",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/user1@tesla329.onmicrosoft.com",
+            "title": ""
+          },
+          "type": "added"
+        },
+        {
+          "link": {
+            "rel": "participantMessaging",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/warpbubble@tesla329.onmicrosoft.com/messaging"
+          },
+          "in": {
+            "rel": "localParticipant",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/warpbubble@tesla329.onmicrosoft.com",
+            "title": "vimal kumar"
+          },
+          "_embedded": {
+            "participantMessaging": {
+              "_links": {
+                "self": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/warpbubble@tesla329.onmicrosoft.com/messaging" },
+                "participant": {
+                  "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/warpbubble@tesla329.onmicrosoft.com",
+                  "title": "vimal kumar"
+                }
+              },
+              "rel": "participantMessaging"
+            }
+          },
+          "type": "added"
+        },
+        {
+          "link": {
+            "rel": "messaging",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/messaging"
+          },
+          "_embedded": {
+            "messaging": {
+              "state": "Connected",
+              "negotiatedMessageFormats": [ "Plain" ],
+              "_links": {
+                "self": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/messaging" },
+                "conversation": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca" },
+                "stopMessaging": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/messaging/terminate" },
+                "sendMessage": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/messaging/messages" },
+                "setIsTyping": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/messaging/typing" },
+                "typingParticipants": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/messaging/typingParticipants" }
+              },
+              "rel": "messaging"
+            }
+          },
+          "type": "updated"
+        },
+        {
+          "link": {
+            "rel": "participant",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/user1@tesla329.onmicrosoft.com",
+            "title": ""
+          },
+          "type": "updated"
+        }
+      ]
+    },
+    {
+      "rel": "communication",
+      "href": "/ucwa/oauth/v1/applications/10950283053/communication",
+      "events": [
+        {
+          "link": {
+            "rel": "messagingInvitation",
+            "href": "/ucwa/oauth/v1/applications/10950283053/communication/messagingInvitations/5212c5161ebe4a82a4c4fe0e92fe85e8"
+          },
+          "status": "Success",
+          "_embedded": {
+            "messagingInvitation": {
+              "direction": "Outgoing",
+              "importance": "Normal",
+              "threadId": "AdLuH9N7UBFexDg4hkanQk5PhRMBww==",
+              "state": "Connected",
+              "operationId": "8822831e-b0f6-483e-bde0-be6d8c74e425",
+              "subject": "Task Sample",
+              "_links": {
+                "self": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/messagingInvitations/5212c5161ebe4a82a4c4fe0e92fe85e8" },
+                "from": {
+                  "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/warpbubble@tesla329.onmicrosoft.com",
+                  "title": "vimal kumar"
+                },
+                "to": { "href": "/ucwa/oauth/v1/applications/10950283053/people/user1@tesla329.onmicrosoft.com" },
+                "conversation": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca" },
+                "messaging": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/messaging" }
+              },
+              "_embedded": {
+                "acceptedByParticipant": [
+                  {
+                    "inLobby": false,
+                    "sourceNetwork": "SameEnterprise",
+                    "anonymous": false,
+                    "local": false,
+                    "name": "",
+                    "uri": "sip:user1@tesla329.onmicrosoft.com",
+                    "_links": {
+                      "self": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/user1@tesla329.onmicrosoft.com" },
+                      "conversation": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca" },
+                      "contact": { "href": "/ucwa/oauth/v1/applications/10950283053/people/user1@tesla329.onmicrosoft.com" },
+                      "contactPresence": { "href": "/ucwa/oauth/v1/applications/10950283053/people/user1@tesla329.onmicrosoft.com/presence" },
+                      "contactPhoto": { "href": "/ucwa/oauth/v1/applications/10950283053/photos/user1@tesla329.onmicrosoft.com" },
+                      "participantMessaging": { "href": "/ucwa/oauth/v1/applications/10950283053/communication/conversations/4abce6fd-3501-425d-af19-5bb08d0915ca/participants/user1@tesla329.onmicrosoft.com/messaging" }
+                    },
+                    "rel": "participant"
+                  }
+                ]
+              },
+              "rel": "messagingInvitation"
+            }
+          },
+          "type": "completed"
+        }
+      ]
+    }
+  ]
+}
